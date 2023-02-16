@@ -1,0 +1,184 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+:root{
+    --back_color: rgb(26, 107, 18);
+}
+.txt-green {
+    color: #2D694F;
+}
+.date-right{
+    float: right;
+}
+/* tieu de cv */
+.title_head{
+    max-height: 20em;
+    display: flex;
+    background-color: var(--back_color);
+}
+.title_head img{
+    width:12%;
+    margin: 1.5rem 0;
+    border-radius: 3px ;
+    border-bottom-right-radius: 9rem;
+    border-top-right-radius: 9rem;
+}
+.title_name{
+    margin-left: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.name{
+    font-size: 1.5rem;
+}
+.des{
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    color: rgb(189, 187, 187);
+}
+
+/* Thong tin cv */
+.body_cv{
+    display: flex;
+}
+
+/* ki nang  */
+.infor{
+    display: flex;
+    background-color: rgb(221, 219, 219);
+    width: 40%;
+}
+.infor_skills{
+    background-color:#fff;
+    margin: 12px 12px 12px 25px;
+    
+}
+.part_infor{
+
+}
+.title_info{
+    background-color:var(--back_color);
+    color: #fff;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    width: 46%;
+    padding: 8px 8px 8px 28px;
+    border-bottom-right-radius: 10rem;
+    border-top-right-radius: 10rem;
+}
+.contact_infor{
+    margin : 9px 0 9px 35px;
+}
+.skill_infor{
+    margin:17px 17px 10px 17px ;
+}
+.infor_skill{
+    text-transform: uppercase;
+
+}
+.skill_infor progress{
+    width: 100%;
+    background-color: #fff;
+    height: 0.5em;
+
+}
+
+/* Chung chi  */
+.certi_infor{
+    margin: 0.9rem;
+}
+.title_certi {
+    text-transform: uppercase;
+    font-weight:bold;
+    width: 30%;
+    display: flex;
+}
+.left_text{
+   display: inline-block;
+}
+.date{
+    margin-left: 1rem;
+    font-style: italic;
+    color:rgb(61, 230, 42);
+}
+.certi_infor{
+    margin:30px 20px;
+}
+.title_certi{
+    margin-bottom: 8px;
+}
+.des_certi{
+    margin-bottom: 8px;
+}
+.list_skill{
+    list-style-type:disc;
+    margin-left: 15px;
+}
+
+.box-right{
+    background-color: rgb(221, 219, 219);
+}
+.box-right-item.top {
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.box-right-item .box-item {
+    padding: 15px 25px;
+}
+.box-right-item .border-green {
+    border-left: 15px solid #2D694F;
+    padding: 5px 15px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.box-right-item .border-green p {
+    margin-bottom: 0;
+}
+.box-right-item.bottom{
+    background-color: #fff
+}
